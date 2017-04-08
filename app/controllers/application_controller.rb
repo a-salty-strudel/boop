@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def boop
-    render html: "boop :P"
+    render html: "boop 😛"
   end
 
   def hello
