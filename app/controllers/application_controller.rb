@@ -4,4 +4,8 @@ class ApplicationController < ActionController::Base
   def boop
     render html: "boop :P"
   end
+
+  def hello
+    render html: "hola, mundo!"
+  end
 end
